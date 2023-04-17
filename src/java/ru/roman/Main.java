@@ -3,13 +3,11 @@ package ru.roman;
 public class Main {
     public static void main(String[] args) {
 
-        //Задание 8
-        int salary=29000;
-        int total=0;
-        for (int i=0;i<=12;i++){
-            total=total+total/100;
-            total=total+salary;
-            System.out.println("Месяц "+i+", Сумма накоплений равна "+total);
+        //Задание 10
+        int n=2;
+        for (int i=1;i<=10;i=i+1){
+
+            System.out.println(n+"*"+i+"="+n*i);
         }
     }
 }
