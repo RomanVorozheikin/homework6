@@ -3,8 +3,8 @@ package ru.roman;
 public class Main {
     public static void main(String[] args) {
 
-        //Задание 3
-        for (int i = 0; i <= 17; i = i + 2) {
+        //Задание 4
+        for (int i = 10; i >= -10; i = i - 1) {
             System.out.println(i);
         }
     }
